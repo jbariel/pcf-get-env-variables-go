@@ -1,0 +1,28 @@
+hash: 172ba1b6077934e82bda22c0b8b24eb236955571acdde5f83caf63afb61c0b70
+updated: 2016-08-30T18:52:03.5303945-06:00
+imports:
+- name: github.com/cloudfoundry-community/go-cfclient
+  version: bcb3541a95421743c3f02774399e3bfc9b1fb536
+- name: github.com/golang/protobuf
+  version: 1f49d83d9aa00e6ce4fc8258c71cc7786aec968a
+  subpackages:
+  - proto
+- name: golang.org/x/net
+  version: 7dbad50ab5b31073856416cdcfeb2796d682f844
+  subpackages:
+  - context
+- name: golang.org/x/oauth2
+  version: 2baa8a1b9338cf13d9eeb27696d761155fa480be
+  subpackages:
+  - internal
+- name: google.golang.org/appengine
+  version: 4f7eeb5305a4ba1966344836ba4af9996b7b4e05
+  subpackages:
+  - internal
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/remote_api
+  - internal/urlfetch
+  - urlfetch
+testImports: []
